@@ -60,33 +60,40 @@ for d in korCode:
     #print("=====================================")
 
     count = count + 1
-
+print('=========jeju_food==========')
 print(jeju_food)
+print('=========food_code==========')
 print(food_code)
 
 #(제주어) 제거
-tem1 = [[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
-tem2 = [[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
+tmp = [[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
 
 for list in jeju_food:
     for element in list:
         if '(' in element:
             del1 = re.sub(r'\([^)]*\)', '', element)
-            tem1[jeju_food.index(list)].append(del1)
-        elif '[' in element:
-            del2 = re.sub(r'\[[^)]*\]', '', element)
-            tem1[jeju_food.index(list)].append(del1)
-        elif '<' in element:
-            del3 = re.sub(r'\<[^)]*\>', '', element)
-            tem1[jeju_food.index(list)].append(del1)
+            tmp[jeju_food.index(list)].append(del1)
         else:
-            tem1[jeju_food.index(list)].append(element)
-    print(tem1[jeju_food.index(list)])
-print(tem1)
+            tmp[jeju_food.index(list)].append(element)
+    #print(tmp[jeju_food.index(list)])
+print("==========tmp============")
+print(tmp)
+
+# 딕셔너리
+sum_jeju_food = sum(tmp,[])
+sum_food_code = sum(food_code, [])
+
+#print(len(sum_jeju_food))
+#print(len(sum_food_code))
 
 
-       #print(jeju_food_del)
-#print(jeju_food)
+food_dict = {}
+
+for key in sum_jeju_food:
+    food_dict[key] = sum_food_code[sum_jeju_food.index(key)]
+
+from pprint import pprint as pp
+pp(food_dict)
 
 
 
