@@ -1,6 +1,8 @@
 import urllib.request
 from bs4 import BeautifulSoup
 import re
+from pprint import pprint as pp
+
 
 # 가나다
 korCode = ['%EA%B0%80', '%EB%82%98', '%EB%8B%A4', '%EB%9D%BC', '%EB%A7%88', '%EB%B0%94', '%EC%82%AC', '%EC%95%84',
@@ -27,7 +29,6 @@ for d in korCode:
     res = req.read()
 
     soup = BeautifulSoup(res, 'html.parser')
-    #data = str(soup.select(('li > table > tbody > tr > td > a')))
     data = soup.select(('li > table > tbody > tr > td > a'))
 
     for text in data:
@@ -92,11 +93,31 @@ food_dict = {}
 for key in sum_jeju_food:
     food_dict[key] = sum_food_code[sum_jeju_food.index(key)]
 
-from pprint import pprint as pp
 pp(food_dict)
 
+#print(len(food_dict))
 
 
+# 식재료 데이터 수집
+stuff = []
+for val in food_dict.values():
+    food_info_Url = "https://www.nongsaro.go.kr/portal/ps/psr/psrc/areaCkRyDtl.ps?menuId=PS03934&pageIndex=1&pageSize=10&pageUnit=10&cntntsNo="
+    full_food_info_url = food_info_Url + val
+    #print(full_food_info_url)
 
+    req_food_info = urllib.request.urlopen(full_food_info_url)
+    res_food_info = req_food_info.read()
 
+    soup_food_info = BeautifulSoup(res_food_info, 'html.parser')
+    #data = str(soup.select(('li > table > tbody > tr > td > a')))
+    food_info_data = soup_food_info.select(('table > tbody > tr > td'))
+    #print(food_info_data)
+    stuff.extend(food_info_data[3])
+    #print(stuff)
 
+stuff_dict = {}
+
+for code in sum_food_code:
+    stuff_dict[code] = stuff[sum_food_code.index(code)]
+
+pp(stuff_dict)
