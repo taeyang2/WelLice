@@ -45,15 +45,27 @@ for d in doNum:
                 data2 = re.sub(r'\([^)]*\)','', data)
                 data3 = re.sub(r'\<[^)]*\>','', data2)
                 data4 = re.sub(r'\[([^]]*)\]', '', data3)
-                #words = data4.split() #띄어쓰기 단위로 구분 후 가나다 별 리스트 형태로 음식명 저장
-                #중복 제거
-                #words2 = list(OrderedDict.fromkeys(words).keys())
-
-                #지역별 음식명 리스트로 저장
                 locfood[doIndex].append(data4)
             else:
                 locfood[doIndex].append(data)
 
     print(locfood[doIndex])
     print(len(locfood[doIndex]))
+
+#제주향토음식과 타지역 향토음식 비교 후 중복 제거
+for count in range(8):
+    print(count)
+
+    for jeju_food in locfood[8]:
+        if jeju_food in locfood[count]:
+            locfood[8].remove(jeju_food)
+
+#결과 확인
+print(locfood[8])
+print(len(locfood[8]))
+print(306-len(locfood[8]))
+
+
+
+
 
