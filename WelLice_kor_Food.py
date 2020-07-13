@@ -1,7 +1,6 @@
 import urllib.request
 from bs4 import BeautifulSoup
 import re
-from collections import OrderedDict
 
 #가나다
 korCode = ['%EA%B0%80','%EB%82%98','%EB%8B%A4','%EB%9D%BC','%EB%A7%88','%EB%B0%94','%EC%82%AC','%EC%95%84','%EC%9E%90',
@@ -45,16 +44,18 @@ for d in doNum:
                 data2 = re.sub(r'\([^)]*\)','', data)
                 data3 = re.sub(r'\<[^)]*\>','', data2)
                 data4 = re.sub(r'\[([^]]*)\]', '', data3)
-                locfood[doIndex].append(data4)
+                locfood[doIndex].append(data4.strip())
             else:
-                locfood[doIndex].append(data)
+                locfood[doIndex].append(data.strip())
+
+
 
     print(locfood[doIndex])
     print(len(locfood[doIndex]))
 
 #제주향토음식과 타지역 향토음식 비교 후 중복 제거
 for count in range(8):
-    print(count)
+    #print(count)
 
     for jeju_food in locfood[8]:
         if jeju_food in locfood[count]:
@@ -63,7 +64,27 @@ for count in range(8):
 #결과 확인
 print(locfood[8])
 print(len(locfood[8]))
-print(306-len(locfood[8]))
+count_locfood8 = 306-len(locfood[8])
+print(count_locfood8)
+            
+#제주향토음식 데이터 내 중복 확인 후 제거(key만 리스트에 따로 저장)
+groupby = list(set(locfood[8]))
+result = dict()
+for ip in groupby:
+    result[ip] = locfood[8].count(ip)
+
+print(result)
+print(len(result))
+
+#key만 리스트로 저장
+dic_food_key = result.keys()
+final_jeju_food = list(dic_food_key)
+
+print(final_jeju_food)
+print(len(final_jeju_food))
+
+
+
 
 
 
