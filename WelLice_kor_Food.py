@@ -2,6 +2,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 import re
 import requests
+import csv
 
 #가나다
 korCode = ['%EA%B0%80','%EB%82%98','%EB%8B%A4','%EB%9D%BC','%EB%A7%88','%EB%B0%94','%EC%82%AC','%EC%95%84','%EC%9E%90',
@@ -15,6 +16,8 @@ do = ['서울/경기','강원도','충청남도','충청북도','경상남도','
 #지역별 음식 저장 할 리스트
 locfood = [[],[],[],[],[],[],[],[],[]]
 
+f = open('WelLice_Search_result.csv','w',newline='')
+wr = csv.writer(f)
 
 
 #지역별 url 작성
@@ -62,12 +65,14 @@ for count in range(8):
         if jeju_food in locfood[count]:
             locfood[8].remove(jeju_food)
 
+locfood[8].remove('제주도')
 #결과 확인
 print(locfood[8])
 print(len(locfood[8]))
 count_locfood8 = 306-len(locfood[8])
 print(count_locfood8)
-            
+
+
 #제주향토음식 데이터 내 중복 확인 후 제거(key만 리스트에 따로 저장)
 groupby = list(set(locfood[8]))
 result = dict()
@@ -127,24 +132,39 @@ for indexfood in final_jeju_food :
 
     #print(docurls[food.index(indexfood)])
 
+
+
     #데이터 정리
     for line1, line2, line3 in zip(restaurants, menu, loclist):
+        menu_list = []
         # print(type(line1))
         # print(line1.get_text(), end = ":")
         restName = line1.get_text().split(' ')
         #print(restName)
         # print(type(line2))
         # print(line2.get_text())
-        menu3 = line2.get_text()
+        menulist = line2.get_text().split(',')
+        for menus in menulist:
+            menu_list.append(menus.strip())
         loca = line3
 
         if restName[1] == '명동교자':
             search_result = '결과없음'
             print(search_result)
+            wr.writerow([indexfood,search_result])
             break
         else:
-            print(restName[1], menu3, loca)
+            if len(menu_list) == 3:
+                wr.writerow([indexfood, restName[1], menu_list[0], menu_list[1], menu_list[2], loca])
+            elif len(menu_list) ==2:
+                wr.writerow([indexfood, restName[1], menu_list[0], menu_list[1], "", loca])
+            elif len(menu_list) == 1:
+                wr.writerow([indexfood, restName[1], menu_list[0], "", "", loca])
+            elif len(menu_list) == 0:
+                wr.writerow([indexfood, restName[1], "", "", "", loca])
 
+
+f.close()
 
 
 
