@@ -127,15 +127,26 @@ for indexfood in final_jeju_food :
 
     #print(docurls[food.index(indexfood)])
 
-    for line1, line2, line3 in zip(restaurants,menu, loclist):
-        #print(type(line1))
-        #print(line1.get_text(), end = ":")
+    #데이터 정리
+    for line1, line2, line3 in zip(restaurants, menu, loclist):
+        # print(type(line1))
+        # print(line1.get_text(), end = ":")
         restName = line1.get_text().split(' ')
-        #print(type(line2))
-        #print(line2.get_text())
+        #print(restName)
+        # print(type(line2))
+        # print(line2.get_text())
         menu3 = line2.get_text()
         loca = line3
 
-        print(restName[1], menu3, loca)
+        if restName[1] == '명동교자':
+            search_result = '결과없음'
+            print(search_result)
+            break
+        else:
+            print(restName[1], menu3, loca)
+
+
+
+
 
 
