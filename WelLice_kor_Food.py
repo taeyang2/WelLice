@@ -1,6 +1,7 @@
 import urllib.request
 from bs4 import BeautifulSoup
 import re
+import requests
 
 #가나다
 korCode = ['%EA%B0%80','%EB%82%98','%EB%8B%A4','%EB%9D%BC','%EB%A7%88','%EB%B0%94','%EC%82%AC','%EC%95%84','%EC%9E%90',
@@ -79,14 +80,62 @@ print(len(result))
 #key만 리스트로 저장
 dic_food_key = result.keys()
 final_jeju_food = list(dic_food_key)
+final_jeju_food.sort()
 
 print(final_jeju_food)
 print(len(final_jeju_food))
 
 
+# 음식점 데이터 수집
+for indexfood in final_jeju_food :
+    print(indexfood)
+    dining_url = 'https://www.diningcode.com/list.php?query=' + indexfood
+    print(dining_url)
+
+    #url의 html 파일 가져오기
+    dining_html = requests.get(dining_url, headers={"User-Agent": "Mozilla/5.0"})
+    print(dining_html)
+    #가져온 html 파일을 html parser를 통해 정리
+    dining_soup = BeautifulSoup(dining_html.text, "html.parser")
+
+    restaurants = dining_soup.findAll("span",attrs = {"class":"btxt"})
+    menu = dining_soup.findAll("span",attrs = {"class":"stxt"})
+    area = dining_soup.findAll("i",attrs={"class":"loca"})
+    addressData = str(dining_soup.findAll("span", attrs = {"class":"ctxt"}))
+    #<i> 제거
+    address = re.sub('<i.*?>.*?</i>','',addressData, 0, re.I|re.S)
+    #print(address)
+
+    #</span> 제거 후 <span> 단위로 슬라이싱
+    remove_tag = address.split('</span>,')
+    #print(remove_tag)
+    #print(type(remove_tag))
+    #print(remove_tag[0])
+    #print(type(remove_tag[0]))
+
+    #<span class="ctxt"> 제거
+    remove_front_tag = []
+    for r in remove_tag:
+        remove_front_tag.append(r.replace(' <span class="ctxt">','').replace('</span>]',''))
+    #print(remove_front_tag)
+    #print(remove_front_tag[1])
 
 
+    #업소주소 추출
+    loclist = remove_front_tag[1::2]
+    #print(loclist)
 
+    #print(docurls[food.index(indexfood)])
 
+    for line1, line2, line3 in zip(restaurants,menu, loclist):
+        #print(type(line1))
+        #print(line1.get_text(), end = ":")
+        restName = line1.get_text().split(' ')
+        #print(type(line2))
+        #print(line2.get_text())
+        menu3 = line2.get_text()
+        loca = line3
+
+        print(restName[1], menu3, loca)
 
 
