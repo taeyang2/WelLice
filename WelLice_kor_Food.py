@@ -3,6 +3,12 @@ from bs4 import BeautifulSoup
 import re
 import requests
 import csv
+import time
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
+import sys
+import json
+
 
 #가나다
 korCode = ['%EA%B0%80','%EB%82%98','%EB%8B%A4','%EB%9D%BC','%EB%A7%88','%EB%B0%94','%EC%82%AC','%EC%95%84','%EC%9E%90',
@@ -16,7 +22,7 @@ do = ['서울/경기','강원도','충청남도','충청북도','경상남도','
 #지역별 음식 저장 할 리스트
 locfood = [[],[],[],[],[],[],[],[],[]]
 
-f = open('WelLice_Search_result.csv','w',newline='')
+f = open('WelLice_Search_result(latlag_test).csv','w',newline='')
 wr = csv.writer(f)
 
 
@@ -147,24 +153,87 @@ for indexfood in final_jeju_food :
         for menus in menulist:
             menu_list.append(menus.strip())
         loca = line3
+        print(restName)
+        print(loca)
+
+        #위도 경도 수집
+        def get_from_bunzi(add):
+            print(add)
+
+            x = ""
+            y = ""
+            try:
+
+                time.sleep(1)
+
+                global pre_time
+                this_time = time.time()
+                pre_time = time.time()
+
+                if abs(pre_time - this_time) < 1:
+                    time.sleep(1)
+                pre_time = time.time()
+                try:
+                    url = 'http://api.vworld.kr/req/address?service=address&request=getCoord&key=8C96FBD7-F4DA-384E-A0A1-1EDB5E856952&type=PARCEL&address=' + add
+                    print(url)
+                    session = requests.Session()
+                    retry = Retry(connect=3, backoff_factor=1)
+                    adapter = HTTPAdapter(max_retries=retry)
+                    session.mount('http://', adapter)
+                    session.mount('https://', adapter)
+                    headers = {'Content-Type': 'application/json; charset=utf-8'}
+
+                    res = session.get(url, headers=headers).text
+                    json_root = json.loads(res)
+                    sys.stdout.flush()
+                    if json_root['response']['status'] == 'NOT_FOUND':
+                        # print(datetime.datetime.now().isoformat() + "/ " + add + " / NOT")
+                        sys.stdout.flush()
+                        x = y = ""
+                        #print('if문' + x)
+                    else:
+                        x = json_root['response']['result']['point']['x']
+                        y = json_root['response']['result']['point']['y']
+                        # print(datetime.datetime.now().isoformat() + "/ " + add + " / " + y + "," + x)
+                        sys.stdout.flush()
+                        #print('else문' + x, y)
+
+                except Exception as e:
+                    print(e)
+                finally:
+                    session.close()
+            except Exception as e:
+                print(e)
+            return x, y
+
+
+        if __name__ == "__main__":
+            lat, lng = get_from_bunzi(loca)
+
 
         if restName[1] == '명동교자':
             search_result = '결과없음'
             print(search_result)
-            wr.writerow([indexfood,search_result])
+            print([indexfood,search_result])
+            #wr.writerow([indexfood,search_result])
             break
         else:
             if len(menu_list) == 3:
-                wr.writerow([indexfood, restName[1], menu_list[0], menu_list[1], menu_list[2], loca])
+                print([indexfood, restName[1], menu_list[0], menu_list[1], menu_list[2], loca, lat, lng])
+                wr.writerow([indexfood, restName[1], menu_list[0], menu_list[1], menu_list[2], loca, lat, lng])
             elif len(menu_list) ==2:
-                wr.writerow([indexfood, restName[1], menu_list[0], menu_list[1], "", loca])
+                print([indexfood, restName[1], menu_list[0], menu_list[1], "", loca, lat, lng])
+                wr.writerow([indexfood, restName[1], menu_list[0], menu_list[1], "", loca, lat, lng])
             elif len(menu_list) == 1:
-                wr.writerow([indexfood, restName[1], menu_list[0], "", "", loca])
+                print([indexfood, restName[1], menu_list[0], "", "", loca, lat, lng])
+                wr.writerow([indexfood, restName[1], menu_list[0], "", "", loca, lat, lng])
             elif len(menu_list) == 0:
-                wr.writerow([indexfood, restName[1], "", "", "", loca])
+                print([indexfood, restName[1], "", "", "", loca, lat, lng])
+                wr.writerow([indexfood, restName[1], "", "", "", loca, lat, lng])
 
 
 f.close()
+
 
 
 
