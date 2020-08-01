@@ -2,6 +2,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 import re
 from pprint import pprint as pp
+import csv
 
 
 # 가나다
@@ -119,5 +120,39 @@ stuff_dict = {}
 
 for code in sum_food_code:
     stuff_dict[code] = stuff[sum_food_code.index(code)]
+
+pp(stuff_dict)
+
+#딕셔너리 값(식재료) 수정
+# val = stuff_dict.values()
+# print(val)
+# val_list = list(val)
+# print(val_list)
+
+for key, value in stuff_dict.items():
+    ingredient = []
+
+    print("value---", value)
+    val_list = value.split(",")
+    print("val_list---", val_list)
+    for str in val_list:
+        print("str---", str)
+        a1 = re.sub(r'\([^)]*\)', '', str)
+        print("a1---", a1)
+        a2 = re.sub("[0-9]", '', a1)
+        print("a2---", a2)
+        a3 = re.sub("[a-z]", '', a2).strip()
+        print("a3---", a3)
+        a4 = a3.split(' ')
+        print("a4---", a4)
+        ingredient.append(a4[0])
+
+    print(ingredient)
+    # 딕셔너리 값 변경 코드
+    stuff_dict[key] = ingredient
+    print("#########################")
+
+
+
 
 pp(stuff_dict)
