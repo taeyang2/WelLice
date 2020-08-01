@@ -4,6 +4,8 @@ import re
 from pprint import pprint as pp
 import csv
 
+f = open('StuffDic4.csv','w',newline='')
+wr = csv.writer(f)
 
 # 가나다
 korCode = ['%EA%B0%80', '%EB%82%98', '%EB%8B%A4', '%EB%9D%BC', '%EB%A7%88', '%EB%B0%94', '%EC%82%AC', '%EC%95%84',
@@ -150,7 +152,11 @@ for key, value in stuff_dict.items():
     print(ingredient)
     # 딕셔너리 값 변경 코드
     stuff_dict[key] = ingredient
+    wr.writerow([key,ingredient])
+
     print("#########################")
+
+
 
 
 
