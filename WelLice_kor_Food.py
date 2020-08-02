@@ -10,6 +10,9 @@ import sys
 import json
 
 
+# file = open('StuffDic.csv', 'r', encoding='utf-8')
+# r = csv.reader(file)
+
 #가나다
 korCode = ['%EA%B0%80','%EB%82%98','%EB%8B%A4','%EB%9D%BC','%EB%A7%88','%EB%B0%94','%EC%82%AC','%EC%95%84','%EC%9E%90',
        '%EC%B0%A8','%EC%B9%B4','%ED%83%80','%ED%8C%8C','%ED%95%98']
@@ -22,7 +25,7 @@ do = ['서울/경기','강원도','충청남도','충청북도','경상남도','
 #지역별 음식 저장 할 리스트
 locfood = [[],[],[],[],[],[],[],[],[]]
 
-f = open('WelLice_Search_result(latlag_test).csv','w',newline='')
+f = open('WelLice_data_editing.csv','w',newline='')
 wr = csv.writer(f)
 
 
@@ -218,18 +221,9 @@ for indexfood in final_jeju_food :
             #wr.writerow([indexfood,search_result])
             break
         else:
-            if len(menu_list) == 3:
-                print([indexfood, restName[1], menu_list[0], menu_list[1], menu_list[2], loca, lat, lng])
-                wr.writerow([indexfood, restName[1], menu_list[0], menu_list[1], menu_list[2], loca, lat, lng])
-            elif len(menu_list) ==2:
-                print([indexfood, restName[1], menu_list[0], menu_list[1], "", loca, lat, lng])
-                wr.writerow([indexfood, restName[1], menu_list[0], menu_list[1], "", loca, lat, lng])
-            elif len(menu_list) == 1:
-                print([indexfood, restName[1], menu_list[0], "", "", loca, lat, lng])
-                wr.writerow([indexfood, restName[1], menu_list[0], "", "", loca, lat, lng])
-            elif len(menu_list) == 0:
-                print([indexfood, restName[1], "", "", "", loca, lat, lng])
-                wr.writerow([indexfood, restName[1], "", "", "", loca, lat, lng])
+            print([restName[1], loca, lat, lng, indexfood])
+            wr.writerow([restName[1], loca, lat, lng, indexfood])
+            
 
 
 f.close()
