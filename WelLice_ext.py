@@ -4,7 +4,7 @@ import re
 from pprint import pprint as pp
 import csv
 
-f = open('StuffDic4.csv','w',newline='')
+f = open('StuffDic9.csv','w',newline='')
 wr = csv.writer(f)
 
 # 가나다
@@ -135,7 +135,11 @@ for key, value in stuff_dict.items():
     ingredient = []
 
     print("value---", value)
+    value = re.sub(r'\([^)]*\)', '', value)
+    print("value2---", value)
     val_list = value.split(",")
+    print("value3---", value)
+
     print("val_list---", val_list)
     for str in val_list:
         print("str---", str)
@@ -152,7 +156,13 @@ for key, value in stuff_dict.items():
     print(ingredient)
     # 딕셔너리 값 변경 코드
     stuff_dict[key] = ingredient
-    wr.writerow([key,ingredient])
+
+    for FoodName,FoodID in food_dict.items():
+        if key == FoodID:
+
+            print("결과!!!!!!!",FoodName, key, FoodID, ingredient)
+            wr.writerow([FoodName, FoodID, ingredient])
+
 
     print("#########################")
 
@@ -161,4 +171,4 @@ for key, value in stuff_dict.items():
 
 
 
-pp(stuff_dict)
+#pp(stuff_dict)
