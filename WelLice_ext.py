@@ -4,7 +4,7 @@ import re
 from pprint import pprint as pp
 import csv
 
-f = open('StuffDic9.csv','w',newline='')
+f = open('StuffDic10.csv','w',newline='')
 wr = csv.writer(f)
 
 # 가나다
@@ -159,16 +159,14 @@ for key, value in stuff_dict.items():
 
     for FoodName,FoodID in food_dict.items():
         if key == FoodID:
+            foodinfo = [FoodName, FoodID]
+            #all = []
+            for l in range (len(ingredient)):
+                print(ingredient[l])
+                foodinfo.append(ingredient[l])
+                print("식재료추가리스트결과!!!!",foodinfo)
+            wr.writerow(foodinfo)
 
-            print("결과!!!!!!!",FoodName, key, FoodID, ingredient)
-            wr.writerow([FoodName, FoodID, ingredient])
 
 
     print("#########################")
-
-
-
-
-
-
-#pp(stuff_dict)
