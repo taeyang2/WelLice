@@ -4,9 +4,11 @@ import re
 
 from bs4 import BeautifulSoup
 
-file = 'C:\WelLice_ext\StuffDic10.csv'
+
+
 
 stuffData = {}
+efficacyDict = {}
 
 url = "https://terms.naver.com/list.nhn?cid=42785&categoryId=42795&so=st3.asc&viewType=&categoryType=&page="
 for pageNum in range(101):
@@ -45,15 +47,48 @@ print("결과!!!!!", stuffData)
 print(len(stuffData)) #1489개
 
 
+
+
 # 쿡쿡TV에서 효능 데이터 수집
 for sKey, sVal in stuffData.items():
     stuffUrl = f"https://terms.naver.com/entry.nhn?docId={sKey}&cid=42785&categoryId=42795"
-    #stuffUrl.format(sKey)
     print("stuffUrl------",stuffUrl)
 
+    sReq = urllib.request.urlopen(stuffUrl)
+    sRes = sReq.read()
 
-# with open(file, newline='') as f:
-#     reader = csv.reader(f, delimiter = ',', quotechar = '|')
-#
-#     for row in reader:
+    sSoup = BeautifulSoup(sRes, 'html.parser')
+    sData = sSoup.select('p.txt')
+    print("sData------", sData)
+
+    sData2 = str(sData).split('<br/>')
+    print("sData2-----", sData2)
+
+
+
+    for e3 in sData2:
+        if "<strong>· 효능 :</strong>" in e3:
+            efficacy = e3.replace('<strong>· 효능 :</strong> ', '')
+            print("efficacy1------", efficacy)
+            efficacy2 = re.sub(r'\([^)]*\)', '', efficacy)
+            print("efficacy2------", efficacy2)
+            efficacy3 = efficacy2.split(',')
+            result = []
+            for e4 in efficacy3:
+                result.append(e4.strip())
+            print("result------", result)
+        else :
+            result = "결과 없음"
+            print("result------", result)
+
+        efficacyDict[sVal] = result
+print("최종결과!!!!!!!!", efficacyDict)
+print(len(efficacyDict))
+
+
+
+
+
+
+
 
