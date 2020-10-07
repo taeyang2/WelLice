@@ -1,7 +1,7 @@
 import csv
 import urllib.request
 import re
-
+import time
 from bs4 import BeautifulSoup
 
 
@@ -11,7 +11,7 @@ stuffData = {}
 efficacyDict = {}
 
 url = "https://terms.naver.com/list.nhn?cid=42785&categoryId=42795&so=st3.asc&viewType=&categoryType=&page="
-for pageNum in range(101):
+for pageNum in range(2): #101 페이지
     pageNum = pageNum +1
     pageUrl = url + str(pageNum)
     print(pageUrl)
@@ -50,7 +50,13 @@ print(len(stuffData)) #1489개
 
 
 # 쿡쿡TV에서 효능 데이터 수집
+count = 0
 for sKey, sVal in stuffData.items():
+    #count += 1
+    #if count % 30 == 0:
+        #time.sleep(1)
+
+    time.sleep(1)
     stuffUrl = f"https://terms.naver.com/entry.nhn?docId={sKey}&cid=42785&categoryId=42795"
     print("stuffUrl------",stuffUrl)
 
@@ -77,13 +83,22 @@ for sKey, sVal in stuffData.items():
             for e4 in efficacy3:
                 result.append(e4.strip())
             print("result------", result)
+            efficacyDict[sVal] = result
         else :
-            result = "결과 없음"
-            print("result------", result)
+            else_result = "결과 없음"
+            print("else_result------", else_result)
 
-        efficacyDict[sVal] = result
+    #efficacyDict[sVal] = result
 print("최종결과!!!!!!!!", efficacyDict)
 print(len(efficacyDict))
+
+
+# 효능 데이터 확인
+count = 0
+for ekey, evalue in efficacyDict.items():
+    if evalue != '결과 없음':
+        count = count + 1
+        print("데이터확인---"+str(count)+"."+ekey)
 
 
 
