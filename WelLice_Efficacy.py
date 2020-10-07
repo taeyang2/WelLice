@@ -1,4 +1,5 @@
 import csv
+import json
 import urllib.request
 import re
 import time
@@ -139,7 +140,8 @@ for ekey, evalue in efficacyDict.items():
 
 print(effect_igredient_list)
 
-
+with open("effect_igredient_p101.json",'w',encoding='utf-8') as make_file:
+    json.dump(effect_igredient_list, make_file, ensure_ascii=False, indent='\t')
 
 
 
