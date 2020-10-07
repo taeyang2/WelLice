@@ -1,0 +1,237 @@
+[
+	{
+		"effect": "원기회복",
+		"ingredient_list": [
+			"가다랑어"
+		]
+	},
+	{
+		"effect": "관절질환 예방",
+		"ingredient_list": [
+			"가다랑어"
+		]
+	},
+	{
+		"effect": "어린이 성장발육 촉진",
+		"ingredient_list": [
+			"가리비",
+			"갈치",
+			"강낭콩"
+		]
+	},
+	{
+		"effect": "보혈",
+		"ingredient_list": [
+			"가물치"
+		]
+	},
+	{
+		"effect": "변비 예방",
+		"ingredient_list": [
+			"가시리"
+		]
+	},
+	{
+		"effect": "간 보호",
+		"ingredient_list": [
+			"가쓰오부시"
+		]
+	},
+	{
+		"effect": "성인병 예방",
+		"ingredient_list": [
+			"가쓰오부시",
+			"가오리",
+			"개조개"
+		]
+	},
+	{
+		"effect": "스트레스 치유",
+		"ingredient_list": [
+			"가자미"
+		]
+	},
+	{
+		"effect": "콜레스테롤 개선",
+		"ingredient_list": [
+			"가재"
+		]
+	},
+	{
+		"effect": "항암 작용",
+		"ingredient_list": [
+			"가지"
+		]
+	},
+	{
+		"effect": "간장질환 예방",
+		"ingredient_list": [
+			"가지버섯"
+		]
+	},
+	{
+		"effect": "동맥경화 예방",
+		"ingredient_list": [
+			"간고등어"
+		]
+	},
+	{
+		"effect": "뇌졸중 예방",
+		"ingredient_list": [
+			"간고등어"
+		]
+	},
+	{
+		"effect": "만성 기관지염 치유",
+		"ingredient_list": [
+			"간수"
+		]
+	},
+	{
+		"effect": "고혈압",
+		"ingredient_list": [
+			"간장 만드는 법"
+		]
+	},
+	{
+		"effect": "피로 회복",
+		"ingredient_list": [
+			"갈근",
+			"거봉"
+		]
+	},
+	{
+		"effect": "숙취 제거",
+		"ingredient_list": [
+			"갈근"
+		]
+	},
+	{
+		"effect": "성장기 어린이 발육 촉진",
+		"ingredient_list": [
+			"갈매기살"
+		]
+	},
+	{
+		"effect": "감기 예방",
+		"ingredient_list": [
+			"감식초"
+		]
+	},
+	{
+		"effect": "비만 방지",
+		"ingredient_list": [
+			"감식초"
+		]
+	},
+	{
+		"effect": "피로회복",
+		"ingredient_list": [
+			"감잎"
+		]
+	},
+	{
+		"effect": "나트륨 배출",
+		"ingredient_list": [
+			"감자"
+		]
+	},
+	{
+		"effect": "암 예방",
+		"ingredient_list": [
+			"감자전분",
+			"감자전분 만드는 법"
+		]
+	},
+	{
+		"effect": "노화 예방",
+		"ingredient_list": [
+			"강된장"
+		]
+	},
+	{
+		"effect": "노화예방",
+		"ingredient_list": [
+			"강된장 만드는 법"
+		]
+	},
+	{
+		"effect": "소화 도움",
+		"ingredient_list": [
+			"강준치"
+		]
+	},
+	{
+		"effect": "관절 건강",
+		"ingredient_list": [
+			"강활"
+		]
+	},
+	{
+		"effect": "기침 완화",
+		"ingredient_list": [
+			"개복숭아"
+		]
+	},
+	{
+		"effect": "신경 안정",
+		"ingredient_list": [
+			"개복숭아"
+		]
+	},
+	{
+		"effect": "고혈압 예방",
+		"ingredient_list": [
+			"개불"
+		]
+	},
+	{
+		"effect": "숙취 해소",
+		"ingredient_list": [
+			"개불"
+		]
+	},
+	{
+		"effect": "위장질환 치유",
+		"ingredient_list": [
+			"개암"
+		]
+	},
+	{
+		"effect": "성장 발육",
+		"ingredient_list": [
+			"갯가재"
+		]
+	},
+	{
+		"effect": "관절기능 개선",
+		"ingredient_list": [
+			"갯장어"
+		]
+	},
+	{
+		"effect": "소화 촉진",
+		"ingredient_list": [
+			"거봉"
+		]
+	},
+	{
+		"effect": "병후 회복기환자 치유",
+		"ingredient_list": [
+			"거위간"
+		]
+	},
+	{
+		"effect": "요통 치유",
+		"ingredient_list": [
+			"거위간",
+			"거위고기"
+		]
+	},
+	{
+		"effect": "회복기환자 치유",
+		"ingredient_list": [
+			"거위고기"
+		]
+	}
+]
