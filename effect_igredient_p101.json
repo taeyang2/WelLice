@@ -1,0 +1,2820 @@
+[
+	{
+		"effect": "원기회복",
+		"ingredient_list": [
+			"가다랑어",
+			"굴비",
+			"꿩고기",
+			"낙지",
+			"대구",
+			"더덕",
+			"두리안",
+			"망상어",
+			"병어",
+			"사골육수 만드는 법",
+			"찐쌀",
+			"참당귀"
+		]
+	},
+	{
+		"effect": "관절질환 예방",
+		"ingredient_list": [
+			"가다랑어"
+		]
+	},
+	{
+		"effect": "어린이 성장발육 촉진",
+		"ingredient_list": [
+			"가리비",
+			"갈치",
+			"강낭콩",
+			"날치알",
+			"메추리알",
+			"빙어",
+			"산천어",
+			"아욱",
+			"유부",
+			"청포묵",
+			"학꽁치"
+		]
+	},
+	{
+		"effect": "보혈",
+		"ingredient_list": [
+			"가물치"
+		]
+	},
+	{
+		"effect": "변비 예방",
+		"ingredient_list": [
+			"가시리",
+			"거피팥",
+			"건포도",
+			"고사리",
+			"곤약",
+			"국수호박",
+			"다래",
+			"다래순",
+			"다시마",
+			"다시마국물",
+			"단배추",
+			"당귀잎",
+			"된장",
+			"막장",
+			"막장 만드는 법",
+			"머위",
+			"메밀",
+			"메밀가루",
+			"미나리",
+			"미숫가루",
+			"미숫가루 만드는 법",
+			"밀가루",
+			"밀기울",
+			"밀싹",
+			"바나나가루",
+			"배",
+			"보리",
+			"비자",
+			"비지",
+			"수세미오이",
+			"순무",
+			"시금치",
+			"쑥갓",
+			"오매",
+			"옥수수",
+			"완두콩",
+			"우거지",
+			"율무가루",
+			"자두",
+			"잠두",
+			"적두",
+			"절인배추",
+			"조",
+			"중력분",
+			"치커리",
+			"콩가루",
+			"토란",
+			"표고버섯",
+			"한천",
+			"현미",
+			"호밀",
+			"호밀가루",
+			"호박고구마"
+		]
+	},
+	{
+		"effect": "간 보호",
+		"ingredient_list": [
+			"가쓰오부시",
+			"동태",
+			"마타리",
+			"코다리",
+			"흑오미자"
+		]
+	},
+	{
+		"effect": "성인병 예방",
+		"ingredient_list": [
+			"가쓰오부시",
+			"가오리",
+			"개조개",
+			"곤드레",
+			"국수호박",
+			"꼴뚜기",
+			"꽁치",
+			"녹차가루",
+			"도가니뼈",
+			"도루묵",
+			"두반장 만드는 법",
+			"들깻가루",
+			"들깻가루 만드는 법",
+			"메주",
+			"메주콩",
+			"메줏가루",
+			"미더덕",
+			"밤콩",
+			"밴댕이",
+			"볼락",
+			"브랜디",
+			"산천어",
+			"쌈장",
+			"쌈장 만드는 법",
+			"영지버섯",
+			"자장 만드는 법",
+			"전갱이",
+			"전어",
+			"쥐눈이콩",
+			"쥐포",
+			"캐슈넛",
+			"콩",
+			"콩물",
+			"콩잎",
+			"토마토 스파게티 만드는 법",
+			"파슬리",
+			"흰콩"
+		]
+	},
+	{
+		"effect": "스트레스 치유",
+		"ingredient_list": [
+			"가자미"
+		]
+	},
+	{
+		"effect": "콜레스테롤 개선",
+		"ingredient_list": [
+			"가재",
+			"고래고기",
+			"굴",
+			"땅콩",
+			"땅콩소스 만드는 법",
+			"로브스터"
+		]
+	},
+	{
+		"effect": "항암 작용",
+		"ingredient_list": [
+			"가지"
+		]
+	},
+	{
+		"effect": "간장질환 예방",
+		"ingredient_list": [
+			"가지버섯",
+			"도다리",
+			"돼지염통",
+			"참소라"
+		]
+	},
+	{
+		"effect": "동맥경화 예방",
+		"ingredient_list": [
+			"간고등어",
+			"고등어",
+			"과메기",
+			"다시마",
+			"된장 만드는 법",
+			"두부",
+			"메밀",
+			"면실유",
+			"발아현미",
+			"야콘",
+			"양파가루",
+			"양파가루 만드는 법",
+			"오트밀",
+			"옥수수기름",
+			"참다랑어",
+			"참붕어",
+			"청국장",
+			"청어",
+			"포도씨유",
+			"현미",
+			"호두",
+			"호두유"
+		]
+	},
+	{
+		"effect": "뇌졸중 예방",
+		"ingredient_list": [
+			"간고등어",
+			"고등어"
+		]
+	},
+	{
+		"effect": "만성 기관지염 치유",
+		"ingredient_list": [
+			"간수"
+		]
+	},
+	{
+		"effect": "고혈압",
+		"ingredient_list": [
+			"간장 만드는 법",
+			"솔잎"
+		]
+	},
+	{
+		"effect": "피로 회복",
+		"ingredient_list": [
+			"갈근",
+			"거봉",
+			"다래",
+			"대파",
+			"도토리가루 만드는 법",
+			"매실식초 만드는 법",
+			"매실청 만드는 법",
+			"모과",
+			"발사믹드레싱 만드는 법",
+			"발아현미",
+			"복분자식초",
+			"앵두",
+			"오매",
+			"오미자",
+			"유자",
+			"장뇌삼",
+			"천문동",
+			"청매실",
+			"팥가루 만드는 법",
+			"팥소 만드는 법",
+			"포도",
+			"한라봉",
+			"현미식초"
+		]
+	},
+	{
+		"effect": "숙취 제거",
+		"ingredient_list": [
+			"갈근",
+			"도토리",
+			"도토리가루",
+			"도토리가루 만드는 법",
+			"매실청",
+			"매실청 만드는 법",
+			"복어",
+			"연자",
+			"칡",
+			"칡가루",
+			"칡가루 만드는 법"
+		]
+	},
+	{
+		"effect": "성장기 어린이 발육 촉진",
+		"ingredient_list": [
+			"갈매기살"
+		]
+	},
+	{
+		"effect": "감기 예방",
+		"ingredient_list": [
+			"감식초",
+			"건고추",
+			"고추기름",
+			"고추기름 만드는 법",
+			"귤",
+			"단배추",
+			"단호박",
+			"단호박가루",
+			"단호박가루 만드는 법",
+			"댓잎",
+			"레몬",
+			"모과",
+			"미역취",
+			"볶은고추장",
+			"볶은고추장 만드는 법",
+			"비단풀",
+			"석류",
+			"솔잎가루",
+			"솔잎가루 만드는 법",
+			"실파",
+			"얼갈이배추",
+			"오렌지",
+			"칠리소스 만드는 법",
+			"한라봉",
+			"할라피뇨"
+		]
+	},
+	{
+		"effect": "비만 방지",
+		"ingredient_list": [
+			"감식초",
+			"참나물"
+		]
+	},
+	{
+		"effect": "피로회복",
+		"ingredient_list": [
+			"감잎",
+			"굴비",
+			"꿀",
+			"달걀흰자",
+			"도미",
+			"도토리",
+			"도토리가루",
+			"레몬",
+			"로열젤리",
+			"매실식초",
+			"매실청",
+			"문어",
+			"발사믹식초",
+			"복숭아",
+			"주꾸미",
+			"청주",
+			"파인애플",
+			"팥가루",
+			"팥소",
+			"홍삼"
+		]
+	},
+	{
+		"effect": "나트륨 배출",
+		"ingredient_list": [
+			"감자",
+			"구아바",
+			"아보카도",
+			"알감자",
+			"참취"
+		]
+	},
+	{
+		"effect": "암 예방",
+		"ingredient_list": [
+			"감자전분",
+			"감자전분 만드는 법",
+			"곰취",
+			"된장 만드는 법",
+			"마늘가루",
+			"청국장",
+			"토마토소스 만드는 법",
+			"토마토홀",
+			"호박",
+			"홀토마토 만드는 법"
+		]
+	},
+	{
+		"effect": "노화 예방",
+		"ingredient_list": [
+			"강된장",
+			"과메기",
+			"둥굴레",
+			"산마늘",
+			"아몬드",
+			"자색고구마",
+			"청국장 만드는 법"
+		]
+	},
+	{
+		"effect": "노화예방",
+		"ingredient_list": [
+			"강된장 만드는 법"
+		]
+	},
+	{
+		"effect": "소화 도움",
+		"ingredient_list": [
+			"강준치",
+			"맥아",
+			"메밀묵",
+			"애플민트"
+		]
+	},
+	{
+		"effect": "관절 건강",
+		"ingredient_list": [
+			"강활"
+		]
+	},
+	{
+		"effect": "기침 완화",
+		"ingredient_list": [
+			"개복숭아",
+			"천문동"
+		]
+	},
+	{
+		"effect": "신경 안정",
+		"ingredient_list": [
+			"개복숭아",
+			"라벤더",
+			"솔잎가루",
+			"솔잎가루 만드는 법",
+			"애플민트",
+			"양상추",
+			"황도"
+		]
+	},
+	{
+		"effect": "고혈압 예방",
+		"ingredient_list": [
+			"개불",
+			"고구마전분",
+			"과메기",
+			"국수호박",
+			"꺽지",
+			"노각",
+			"다시마",
+			"레드비트",
+			"삼세기",
+			"삼치",
+			"새우",
+			"서대",
+			"수박껍질",
+			"신선초",
+			"양념된장",
+			"양념된장 만드는 법",
+			"연근",
+			"오트밀",
+			"조선오이",
+			"죽순",
+			"중하",
+			"참다랑어",
+			"토마토페이스트 만드는 법",
+			"파래자반"
+		]
+	},
+	{
+		"effect": "숙취 해소",
+		"ingredient_list": [
+			"개불",
+			"다슬기",
+			"돌미나리",
+			"동태포",
+			"북어",
+			"북어포",
+			"콩나물",
+			"황복",
+			"황태",
+			"황태채"
+		]
+	},
+	{
+		"effect": "위장질환 치유",
+		"ingredient_list": [
+			"개암",
+			"다래나무",
+			"북어포"
+		]
+	},
+	{
+		"effect": "성장 발육",
+		"ingredient_list": [
+			"갯가재",
+			"대하",
+			"로브스터",
+			"새우",
+			"새우살"
+		]
+	},
+	{
+		"effect": "관절기능 개선",
+		"ingredient_list": [
+			"갯장어",
+			"홍어"
+		]
+	},
+	{
+		"effect": "소화 촉진",
+		"ingredient_list": [
+			"거봉",
+			"방아잎",
+			"산사"
+		]
+	},
+	{
+		"effect": "병후 회복기환자 치유",
+		"ingredient_list": [
+			"거위간",
+			"거위알"
+		]
+	},
+	{
+		"effect": "요통 치유",
+		"ingredient_list": [
+			"거위간",
+			"거위고기",
+			"거위알"
+		]
+	},
+	{
+		"effect": "회복기환자 치유",
+		"ingredient_list": [
+			"거위고기",
+			"도미",
+			"자리돔"
+		]
+	},
+	{
+		"effect": "노화 방지",
+		"ingredient_list": [
+			"건삼",
+			"고추씨",
+			"낫토",
+			"낫토 만드는 법",
+			"도치",
+			"땅콩",
+			"땅콩기름",
+			"만가닥버섯",
+			"머루",
+			"멍게",
+			"모시",
+			"무말랭이",
+			"방어",
+			"복분자",
+			"빙어",
+			"송화",
+			"슬라이스치즈",
+			"염소고기",
+			"옥수수기름",
+			"올리브",
+			"인삼",
+			"장뇌삼",
+			"콩기름",
+			"파르메산치즈",
+			"파슬리",
+			"현미",
+			"흑미"
+		]
+	},
+	{
+		"effect": "피부 미용 </p>]",
+		"ingredient_list": [
+			"건자두"
+		]
+	},
+	{
+		"effect": "빈혈 예방",
+		"ingredient_list": [
+			"건포도",
+			"광어",
+			"굴",
+			"그린홍합",
+			"꼬막",
+			"꽁치",
+			"동죽",
+			"돼지간",
+			"돼지선지",
+			"돼지콩팥",
+			"돼지허파",
+			"레드비트",
+			"바지락",
+			"봄동",
+			"붕어",
+			"비트",
+			"선지",
+			"소간",
+			"쇠고기등심",
+			"시금치",
+			"신선초",
+			"연근",
+			"오분자기",
+			"진주조개",
+			"참붕어",
+			"톳",
+			"피조개",
+			"학꽁치"
+		]
+	},
+	{
+		"effect": "골다공증 예방",
+		"ingredient_list": [
+			"건표고버섯",
+			"고둥",
+			"까나리액젓 만드는 법",
+			"다시마가루",
+			"다시마가루 만드는 법",
+			"머위",
+			"멸치가루",
+			"멸치가루 만드는 법",
+			"모시잎",
+			"무말랭이",
+			"방어",
+			"백화고",
+			"뱅어포",
+			"보리새우",
+			"사골",
+			"삼세기",
+			"새우가루",
+			"새우가루 만드는 법",
+			"슬라이스치즈",
+			"쑥가루 만드는 법",
+			"양미리",
+			"어포",
+			"에멘탈치즈",
+			"오분자기",
+			"우렁이",
+			"우유",
+			"전어",
+			"중하",
+			"파래",
+			"파르메산치즈",
+			"호박고지",
+			"훈제연어",
+			"휘핑크림"
+		]
+	},
+	{
+		"effect": "고지혈 증예방",
+		"ingredient_list": [
+			"건표고버섯"
+		]
+	},
+	{
+		"effect": "피부노화 방지",
+		"ingredient_list": [
+			"검은깨",
+			"골뱅이",
+			"깨",
+			"깨소금",
+			"닭똥집",
+			"수세미",
+			"호두"
+		]
+	},
+	{
+		"effect": "콜레스테롤 흡수 낮춤",
+		"ingredient_list": [
+			"게"
+		]
+	},
+	{
+		"effect": "소화기질환 치유",
+		"ingredient_list": [
+			"계피",
+			"계핏가루"
+		]
+	},
+	{
+		"effect": "여성병 치유",
+		"ingredient_list": [
+			"계피"
+		]
+	},
+	{
+		"effect": "소화기 질환 치유",
+		"ingredient_list": [
+			"계핏가루 만드는 법"
+		]
+	},
+	{
+		"effect": "소화기능 촉진",
+		"ingredient_list": [
+			"고들빼기"
+		]
+	},
+	{
+		"effect": "피부미용",
+		"ingredient_list": [
+			"고들빼기",
+			"미소",
+			"숭어",
+			"오리고기",
+			"인진쑥",
+			"참기름",
+			"청경채"
+		]
+	},
+	{
+		"effect": "두뇌 영양",
+		"ingredient_list": [
+			"고래고기"
+		]
+	},
+	{
+		"effect": "시력 보호",
+		"ingredient_list": [
+			"고비",
+			"다슬기",
+			"도치",
+			"리치",
+			"물가자미",
+			"미꾸라지",
+			"열무",
+			"웅어"
+		]
+	},
+	{
+		"effect": "위장 보호",
+		"ingredient_list": [
+			"고수"
+		]
+	},
+	{
+		"effect": "입냄새 제거",
+		"ingredient_list": [
+			"고수"
+		]
+	},
+	{
+		"effect": "소화불량 치유",
+		"ingredient_list": [
+			"고추",
+			"고추장",
+			"능이버섯",
+			"피망"
+		]
+	},
+	{
+		"effect": "식욕부진 해소",
+		"ingredient_list": [
+			"고추"
+		]
+	},
+	{
+		"effect": "위장병 예방",
+		"ingredient_list": [
+			"고추냉이"
+		]
+	},
+	{
+		"effect": "소화 용이",
+		"ingredient_list": [
+			"고추장 만드는 법",
+			"곤드레",
+			"냉이",
+			"누룩",
+			"달팽이",
+			"당면",
+			"빵가루",
+			"생강",
+			"생강가루",
+			"생강가루 만드는 법",
+			"자리돔",
+			"조청",
+			"진피",
+			"찹쌀",
+			"총각무",
+			"파인애플",
+			"피라미"
+		]
+	},
+	{
+		"effect": "식욕 촉진",
+		"ingredient_list": [
+			"고춧가루",
+			"식초"
+		]
+	},
+	{
+		"effect": "단백질 소화",
+		"ingredient_list": [
+			"고춧가루"
+		]
+	},
+	{
+		"effect": "비만 예방",
+		"ingredient_list": [
+			"곤약",
+			"광어",
+			"목이버섯",
+			"방울토마토",
+			"사과초",
+			"사과초 만드는 법",
+			"샤부샤부소스 만드는 법",
+			"올리고당",
+			"우뭇가사리",
+			"우엉",
+			"죽순",
+			"해삼",
+			"해초"
+		]
+	},
+	{
+		"effect": "당뇨병 예방",
+		"ingredient_list": [
+			"곤약",
+			"멍게",
+			"야콘",
+			"참소라",
+			"한천",
+			"함초"
+		]
+	},
+	{
+		"effect": "심장질환 예방 에는 ‘베타카로틴’이 들어 있는데",
+		"ingredient_list": [
+			"골드키위"
+		]
+	},
+	{
+		"effect": "이 물질은 암과 심장질환 예방에 효과가 있는 항산화제로 알려져 있다.)",
+		"ingredient_list": [
+			"골드키위"
+		]
+	},
+	{
+		"effect": "기침/가래 치유",
+		"ingredient_list": [
+			"곶감"
+		]
+	},
+	{
+		"effect": "지방간 예방",
+		"ingredient_list": [
+			"구기자"
+		]
+	},
+	{
+		"effect": "혈압조절",
+		"ingredient_list": [
+			"구기자"
+		]
+	},
+	{
+		"effect": "잇몸질환 치유",
+		"ingredient_list": [
+			"구운소금",
+			"죽염"
+		]
+	},
+	{
+		"effect": "생리통 예방",
+		"ingredient_list": [
+			"구절초"
+		]
+	},
+	{
+		"effect": "야맹증 예방",
+		"ingredient_list": [
+			"굴비",
+			"붕장어",
+			"살구"
+		]
+	},
+	{
+		"effect": "혈압 저하",
+		"ingredient_list": [
+			"귀리"
+		]
+	},
+	{
+		"effect": "배변 용이",
+		"ingredient_list": [
+			"귀리",
+			"청각"
+		]
+	},
+	{
+		"effect": "성장발육 촉진",
+		"ingredient_list": [
+			"귀리",
+			"다시마가루",
+			"다시마가루 만드는 법",
+			"우유",
+			"휘핑크림"
+		]
+	},
+	{
+		"effect": "성장기 어린이 성장발육 촉진",
+		"ingredient_list": [
+			"근대"
+		]
+	},
+	{
+		"effect": "기침감기 예방",
+		"ingredient_list": [
+			"금귤"
+		]
+	},
+	{
+		"effect": "장건강",
+		"ingredient_list": [
+			"김치국물"
+		]
+	},
+	{
+		"effect": "피부 노화 방지",
+		"ingredient_list": [
+			"깨소금 만드는 법",
+			"닭발"
+		]
+	},
+	{
+		"effect": "피부 미용",
+		"ingredient_list": [
+			"깻잎",
+			"대하",
+			"살구",
+			"오렌지",
+			"오매",
+			"콩기름"
+		]
+	},
+	{
+		"effect": "어린이 성장발육",
+		"ingredient_list": [
+			"꼬막",
+			"녹두"
+		]
+	},
+	{
+		"effect": "회복기 환자 치유",
+		"ingredient_list": [
+			"꼬치고기",
+			"메추리알",
+			"소갈비"
+		]
+	},
+	{
+		"effect": "간장 해독",
+		"ingredient_list": [
+			"꼬치고기"
+		]
+	},
+	{
+		"effect": "간기능 강화",
+		"ingredient_list": [
+			"꽃새우",
+			"매실청",
+			"매실청 만드는 법"
+		]
+	},
+	{
+		"effect": "식욕증진",
+		"ingredient_list": [
+			"꽈리고추"
+		]
+	},
+	{
+		"effect": "항산화 효과",
+		"ingredient_list": [
+			"꽈리고추",
+			"살구",
+			"풋고추"
+		]
+	},
+	{
+		"effect": "대장암 예방",
+		"ingredient_list": [
+			"꾀꼬리버섯",
+			"밀가루",
+			"조",
+			"호박가루",
+			"호박가루 만드는 법"
+		]
+	},
+	{
+		"effect": "조혈강장",
+		"ingredient_list": [
+			"낙지"
+		]
+	},
+	{
+		"effect": "피부 건강",
+		"ingredient_list": [
+			"날치",
+			"로즈힙",
+			"쑥갓",
+			"아보카도"
+		]
+	},
+	{
+		"effect": "갱년기 장애 치유",
+		"ingredient_list": [
+			"낫토"
+		]
+	},
+	{
+		"effect": "갱년기 장애 방지",
+		"ingredient_list": [
+			"낫토 만드는 법"
+		]
+	},
+	{
+		"effect": "이뇨작용",
+		"ingredient_list": [
+			"노각",
+			"늙은 호박",
+			"순무",
+			"자운영",
+			"조선오이",
+			"참외"
+		]
+	},
+	{
+		"effect": "갱년기 여성에게 좋음.",
+		"ingredient_list": [
+			"노란콩"
+		]
+	},
+	{
+		"effect": "장질환 예방",
+		"ingredient_list": [
+			"노루궁뎅이버섯"
+		]
+	},
+	{
+		"effect": "성장 촉진",
+		"ingredient_list": [
+			"녹각"
+		]
+	},
+	{
+		"effect": "성장기 어린이발육 촉진",
+		"ingredient_list": [
+			"녹두가루"
+		]
+	},
+	{
+		"effect": "기억력 회복",
+		"ingredient_list": [
+			"농어",
+			"볼락"
+		]
+	},
+	{
+		"effect": "치매 예방",
+		"ingredient_list": [
+			"농어",
+			"모시",
+			"비단풀"
+		]
+	},
+	{
+		"effect": "콜레스테롤감소",
+		"ingredient_list": [
+			"느타리버섯",
+			"재래간장"
+		]
+	},
+	{
+		"effect": "부기 치유",
+		"ingredient_list": [
+			"늙은 호박"
+		]
+	},
+	{
+		"effect": "해독작용",
+		"ingredient_list": [
+			"늙은 호박",
+			"자운영"
+		]
+	},
+	{
+		"effect": "입맛 회복",
+		"ingredient_list": [
+			"다래순",
+			"독가시치",
+			"돌산갓",
+			"레몬오일",
+			"루꼴라",
+			"머스터드 만드는 법",
+			"머윗잎",
+			"메이플시럽",
+			"문배",
+			"배합초",
+			"보리멸",
+			"부세",
+			"불고기양념 만드는 법",
+			"사워크림 만드는 법",
+			"스테이크소스 만드는 법",
+			"쑤기미",
+			"씀바귀",
+			"옥돔",
+			"우스터소스 만드는 법",
+			"초간장",
+			"초간장 만드는 법"
+		]
+	},
+	{
+		"effect": "눈건강",
+		"ingredient_list": [
+			"단호박"
+		]
+	},
+	{
+		"effect": "눈 보호",
+		"ingredient_list": [
+			"단호박가루",
+			"단호박가루 만드는 법",
+			"전갱이"
+		]
+	},
+	{
+		"effect": "피부 보호",
+		"ingredient_list": [
+			"단호박가루",
+			"단호박가루 만드는 법",
+			"도가니뼈"
+		]
+	},
+	{
+		"effect": "콜레스테롤 저하",
+		"ingredient_list": [
+			"달걀노른자",
+			"도라지",
+			"문어",
+			"미역귀",
+			"세발낙지",
+			"수세미오이",
+			"왕우럭조개",
+			"재래간장 만드는 법",
+			"피스타치오"
+		]
+	},
+	{
+		"effect": "춘곤증 예방",
+		"ingredient_list": [
+			"달래",
+			"원추리"
+		]
+	},
+	{
+		"effect": "동맥경화증 예방",
+		"ingredient_list": [
+			"달래",
+			"들기름",
+			"말쥐치",
+			"봄동",
+			"시래기",
+			"싸리버섯",
+			"케일",
+			"팽이버섯",
+			"해바라기씨"
+		]
+	},
+	{
+		"effect": "간질환 예방",
+		"ingredient_list": [
+			"닭가슴살"
+		]
+	},
+	{
+		"effect": "원기 회복",
+		"ingredient_list": [
+			"닭육수 만드는 법"
+		]
+	},
+	{
+		"effect": "식욕 증진",
+		"ingredient_list": [
+			"당귀",
+			"레몬그라스",
+			"산초가루",
+			"후춧가루"
+		]
+	},
+	{
+		"effect": "부인병 치료",
+		"ingredient_list": [
+			"당귀",
+			"쑥",
+			"오골계",
+			"익모초",
+			"참당귀"
+		]
+	},
+	{
+		"effect": "시력개선효과",
+		"ingredient_list": [
+			"당근"
+		]
+	},
+	{
+		"effect": "허약체질에 좋음",
+		"ingredient_list": [
+			"대게",
+			"방게"
+		]
+	},
+	{
+		"effect": "고지혈증 예방",
+		"ingredient_list": [
+			"대두",
+			"쇠미역",
+			"조개",
+			"표고버섯가루",
+			"표고버섯가루 만드는 법"
+		]
+	},
+	{
+		"effect": "배변 도움",
+		"ingredient_list": [
+			"대황",
+			"오크라",
+			"표주박"
+		]
+	},
+	{
+		"effect": "혈압 강하",
+		"ingredient_list": [
+			"댓잎",
+			"잣",
+			"콜라비"
+		]
+	},
+	{
+		"effect": "가래 해소",
+		"ingredient_list": [
+			"더덕"
+		]
+	},
+	{
+		"effect": "가래 삭힘",
+		"ingredient_list": [
+			"도라지"
+		]
+	},
+	{
+		"effect": "혈당 강하",
+		"ingredient_list": [
+			"도라지"
+		]
+	},
+	{
+		"effect": "성장기 어린이 두뇌발달 촉진",
+		"ingredient_list": [
+			"도루묵"
+		]
+	},
+	{
+		"effect": "중금속 배출",
+		"ingredient_list": [
+			"도토리",
+			"도토리가루",
+			"도토리가루 만드는 법",
+			"미역귀"
+		]
+	},
+	{
+		"effect": "소화",
+		"ingredient_list": [
+			"돈가스소스 만드는 법",
+			"돼지갈비양념 만드는 법",
+			"소갈비 양념 만드는 법"
+		]
+	},
+	{
+		"effect": "식욕 촉진 및 성인병 예방",
+		"ingredient_list": [
+			"돌나물"
+		]
+	},
+	{
+		"effect": "혈중 콜레스테롤 농도 저하",
+		"ingredient_list": [
+			"돌배"
+		]
+	},
+	{
+		"effect": "입맛회복",
+		"ingredient_list": [
+			"동사리",
+			"살사소스 만드는 법",
+			"양념장 만드는 법"
+		]
+	},
+	{
+		"effect": "부종 방지",
+		"ingredient_list": [
+			"동아",
+			"수박껍질"
+		]
+	},
+	{
+		"effect": "악성 빈혈 예방",
+		"ingredient_list": [
+			"동충하초",
+			"재첩"
+		]
+	},
+	{
+		"effect": "감기몸살 예방",
+		"ingredient_list": [
+			"동태"
+		]
+	},
+	{
+		"effect": "혈중 콜레스테롤 저하",
+		"ingredient_list": [
+			"동태포",
+			"라즈베리",
+			"마가린",
+			"메로",
+			"솔버섯",
+			"참기름"
+		]
+	},
+	{
+		"effect": "어린이 성장 발달",
+		"ingredient_list": [
+			"돼지등심"
+		]
+	},
+	{
+		"effect": "유즙 분비 촉진",
+		"ingredient_list": [
+			"돼지족"
+		]
+	},
+	{
+		"effect": "중금속 해독",
+		"ingredient_list": [
+			"돼지족"
+		]
+	},
+	{
+		"effect": "뇌 건강",
+		"ingredient_list": [
+			"된장"
+		]
+	},
+	{
+		"effect": "병후 회복",
+		"ingredient_list": [
+			"두충",
+			"밤"
+		]
+	},
+	{
+		"effect": "질병 예방",
+		"ingredient_list": [
+			"드라이이스트"
+		]
+	},
+	{
+		"effect": "기력보강",
+		"ingredient_list": [
+			"드렁허리"
+		]
+	},
+	{
+		"effect": "어혈 방지",
+		"ingredient_list": [
+			"들국화"
+		]
+	},
+	{
+		"effect": "눈보호",
+		"ingredient_list": [
+			"들국화"
+		]
+	},
+	{
+		"effect": "황달 치유",
+		"ingredient_list": [
+			"등골나물"
+		]
+	},
+	{
+		"effect": "항산화 작용",
+		"ingredient_list": [
+			"딸기",
+			"멜론",
+			"산딸기",
+			"엘더베리",
+			"오디",
+			"올리브유",
+			"팜유"
+		]
+	},
+	{
+		"effect": "심혈관계 질환 예방",
+		"ingredient_list": [
+			"딸기잼 만드는 법"
+		]
+	},
+	{
+		"effect": "기미/주근깨 예방",
+		"ingredient_list": [
+			"딸기잼 만드는 법"
+		]
+	},
+	{
+		"effect": "설사 완화",
+		"ingredient_list": [
+			"땡감"
+		]
+	},
+	{
+		"effect": "소화용이",
+		"ingredient_list": [
+			"떡볶이소스 만드는 법"
+		]
+	},
+	{
+		"effect": "불면증 치유",
+		"ingredient_list": [
+			"라벤더",
+			"양상추",
+			"제피",
+			"제피가루"
+		]
+	},
+	{
+		"effect": "괴혈병 예방",
+		"ingredient_list": [
+			"라임"
+		]
+	},
+	{
+		"effect": "추위 예방",
+		"ingredient_list": [
+			"럼"
+		]
+	},
+	{
+		"effect": "피부건강",
+		"ingredient_list": [
+			"레몬",
+			"아귀",
+			"오리고기",
+			"전갱이",
+			"해파리"
+		]
+	},
+	{
+		"effect": "뇌기능 활성화",
+		"ingredient_list": [
+			"로즈메리"
+		]
+	},
+	{
+		"effect": "혈관계질환 예방",
+		"ingredient_list": [
+			"리치",
+			"은행"
+		]
+	},
+	{
+		"effect": "위궤양 예방",
+		"ingredient_list": [
+			"마가루",
+			"마가루 만드는 법"
+		]
+	},
+	{
+		"effect": "목건강",
+		"ingredient_list": [
+			"마가목열매"
+		]
+	},
+	{
+		"effect": "수족냉증 치유",
+		"ingredient_list": [
+			"마늘가루",
+			"마늘종"
+		]
+	},
+	{
+		"effect": "위장기능 강화",
+		"ingredient_list": [
+			"마늘가루",
+			"율무가루",
+			"율무가루 만드는 법"
+		]
+	},
+	{
+		"effect": "혈중 콜레스테롤 저하 이 들어 있어 콜레스테롤 수치를 낮춰준다.)",
+		"ingredient_list": [
+			"마요네즈 만드는 법"
+		]
+	},
+	{
+		"effect": "소화촉진",
+		"ingredient_list": [
+			"마카로니",
+			"찹쌀가루",
+			"찹쌀풀"
+		]
+	},
+	{
+		"effect": "뇌건강",
+		"ingredient_list": [
+			"막장",
+			"막장 만드는 법"
+		]
+	},
+	{
+		"effect": "단백질 보충",
+		"ingredient_list": [
+			"맛간장",
+			"맛간장 만드는 법"
+		]
+	},
+	{
+		"effect": "골격 형성",
+		"ingredient_list": [
+			"망둥이"
+		]
+	},
+	{
+		"effect": "기관지염 치유",
+		"ingredient_list": [
+			"맥문동",
+			"잔대"
+		]
+	},
+	{
+		"effect": "시력 개선 효과",
+		"ingredient_list": [
+			"머루"
+		]
+	},
+	{
+		"effect": "칼슘 보충",
+		"ingredient_list": [
+			"머위대",
+			"멸치국물",
+			"모래무지",
+			"모자반",
+			"비름",
+			"시사모",
+			"쥐노래미",
+			"참죽",
+			"크릴",
+			"황어"
+		]
+	},
+	{
+		"effect": "변비 치료",
+		"ingredient_list": [
+			"메밀가루 만드는 법"
+		]
+	},
+	{
+		"effect": "다이어트",
+		"ingredient_list": [
+			"메밀묵",
+			"올방개묵",
+			"우무",
+			"조개관자"
+		]
+	},
+	{
+		"effect": "골다공증 예방  등 무기질이 풍부해서 어린이들의 성장 발육과 갱년기 여성들의 골다공증 예방",
+		"ingredient_list": [
+			"멸치",
+			"잔멸치"
+		]
+	},
+	{
+		"effect": "태아의 뼈 형성과 산모의 뼈 성분 보충에 탁월한 식품이다.)",
+		"ingredient_list": [
+			"멸치",
+			"잔멸치"
+		]
+	},
+	{
+		"effect": "두뇌 발달",
+		"ingredient_list": [
+			"멸치가루",
+			"멸치가루 만드는 법"
+		]
+	},
+	{
+		"effect": "부종 완화",
+		"ingredient_list": [
+			"모시대",
+			"토란"
+		]
+	},
+	{
+		"effect": "변비 예방과 지혈 작용",
+		"ingredient_list": [
+			"모시잎"
+		]
+	},
+	{
+		"effect": "변통 용이",
+		"ingredient_list": [
+			"목향",
+			"삼백초"
+		]
+	},
+	{
+		"effect": "회충 구제 이 들어 있어 강한 살충력이 있어 회충 구제에 효과가 있다.)",
+		"ingredient_list": [
+			"목향"
+		]
+	},
+	{
+		"effect": "소화촉진과 해독기능",
+		"ingredient_list": [
+			"무"
+		]
+	},
+	{
+		"effect": "혈액순환 원활",
+		"ingredient_list": [
+			"무순"
+		]
+	},
+	{
+		"effect": "부종 치유",
+		"ingredient_list": [
+			"무순"
+		]
+	},
+	{
+		"effect": "해열 작용",
+		"ingredient_list": [
+			"물밤",
+			"지골피"
+		]
+	},
+	{
+		"effect": "면역기능 강화",
+		"ingredient_list": [
+			"미삼"
+		]
+	},
+	{
+		"effect": "열량 보충",
+		"ingredient_list": [
+			"미숫가루",
+			"미숫가루 만드는 법",
+			"생면",
+			"유채유"
+		]
+	},
+	{
+		"effect": "뼈 강화",
+		"ingredient_list": [
+			"미역"
+		]
+	},
+	{
+		"effect": "항염증",
+		"ingredient_list": [
+			"민트"
+		]
+	},
+	{
+		"effect": "감기 치유",
+		"ingredient_list": [
+			"민트"
+		]
+	},
+	{
+		"effect": "심장질환 예방",
+		"ingredient_list": [
+			"바나나가루",
+			"청태",
+			"한치"
+		]
+	},
+	{
+		"effect": "정장작용",
+		"ingredient_list": [
+			"바나나가루",
+			"배추",
+			"옥수숫가루",
+			"옥수숫가루 만드는 법"
+		]
+	},
+	{
+		"effect": "식욕 증가",
+		"ingredient_list": [
+			"바닐라에센스",
+			"바닐라오일"
+		]
+	},
+	{
+		"effect": "성장발육",
+		"ingredient_list": [
+			"박",
+			"번데기",
+			"붕어",
+			"아귀",
+			"인삼가루",
+			"전복내장",
+			"중하",
+			"참붕어",
+			"참조기",
+			"피문어"
+		]
+	},
+	{
+		"effect": "산후회복",
+		"ingredient_list": [
+			"박"
+		]
+	},
+	{
+		"effect": "진통제",
+		"ingredient_list": [
+			"박하"
+		]
+	},
+	{
+		"effect": "면역력 증진",
+		"ingredient_list": [
+			"밤고구마",
+			"자색고구마",
+			"홍삼"
+		]
+	},
+	{
+		"effect": "변비예방",
+		"ingredient_list": [
+			"밤버섯",
+			"율무가루 만드는 법"
+		]
+	},
+	{
+		"effect": "<strong>· 효능 :</strong>성장발육 촉진",
+		"ingredient_list": [
+			"방게"
+		]
+	},
+	{
+		"effect": "심신안정",
+		"ingredient_list": [
+			"백단향"
+		]
+	},
+	{
+		"effect": "기운 회복",
+		"ingredient_list": [
+			"백부자"
+		]
+	},
+	{
+		"effect": "골다공 증예방",
+		"ingredient_list": [
+			"밴댕이"
+		]
+	},
+	{
+		"effect": "항암 효과",
+		"ingredient_list": [
+			"버찌",
+			"차가버섯"
+		]
+	},
+	{
+		"effect": "천식 예방",
+		"ingredient_list": [
+			"보리수열매",
+			"수세미"
+		]
+	},
+	{
+		"effect": "당흡수 지연",
+		"ingredient_list": [
+			"보릿가루"
+		]
+	},
+	{
+		"effect": "당의 흡수 지연",
+		"ingredient_list": [
+			"보릿가루 만드는 법"
+		]
+	},
+	{
+		"effect": "체중 감량",
+		"ingredient_list": [
+			"볶은고추장",
+			"볶은고추장 만드는 법",
+			"샐러드드레싱 만드는 법"
+		]
+	},
+	{
+		"effect": "나트륨 배출 은 체내의 나트륨을 몸 밖으로 내보내는 역할을 한다.)",
+		"ingredient_list": [
+			"부추"
+		]
+	},
+	{
+		"effect": "피부트러블 방지",
+		"ingredient_list": [
+			"브로콜리"
+		]
+	},
+	{
+		"effect": "눈",
+		"ingredient_list": [
+			"블루베리"
+		]
+	},
+	{
+		"effect": "뇌세포 노화 예방",
+		"ingredient_list": [
+			"블루베리"
+		]
+	},
+	{
+		"effect": "시각기능유지",
+		"ingredient_list": [
+			"블루치즈"
+		]
+	},
+	{
+		"effect": "피부보호",
+		"ingredient_list": [
+			"블루치즈"
+		]
+	},
+	{
+		"effect": "암의 예방",
+		"ingredient_list": [
+			"비빔냉면소스 만드는 법"
+		]
+	},
+	{
+		"effect": "살충작용",
+		"ingredient_list": [
+			"비자"
+		]
+	},
+	{
+		"effect": "어혈 완화",
+		"ingredient_list": [
+			"비자"
+		]
+	},
+	{
+		"effect": "항산화작용",
+		"ingredient_list": [
+			"사과"
+		]
+	},
+	{
+		"effect": "노폐물 배출",
+		"ingredient_list": [
+			"사과초",
+			"사과초 만드는 법"
+		]
+	},
+	{
+		"effect": "부종 예방",
+		"ingredient_list": [
+			"사과초",
+			"사과초 만드는 법",
+			"오이"
+		]
+	},
+	{
+		"effect": "보온 효과",
+		"ingredient_list": [
+			"산부추"
+		]
+	},
+	{
+		"effect": "해소",
+		"ingredient_list": [
+			"살구잼 만드는 법"
+		]
+	},
+	{
+		"effect": "천식",
+		"ingredient_list": [
+			"살구잼 만드는 법"
+		]
+	},
+	{
+		"effect": "주근깨에 좋음",
+		"ingredient_list": [
+			"살구잼 만드는 법"
+		]
+	},
+	{
+		"effect": "정력 증강",
+		"ingredient_list": [
+			"삼지구엽초",
+			"성게",
+			"성게알"
+		]
+	},
+	{
+		"effect": "성장기 어린이 두뇌발달",
+		"ingredient_list": [
+			"삼치"
+		]
+	},
+	{
+		"effect": "수술 후 회복",
+		"ingredient_list": [
+			"상어지느러미",
+			"양고기"
+		]
+	},
+	{
+		"effect": "숙면",
+		"ingredient_list": [
+			"상추"
+		]
+	},
+	{
+		"effect": "자궁경부암 예방",
+		"ingredient_list": [
+			"상황버섯"
+		]
+	},
+	{
+		"effect": "소화기능 강화",
+		"ingredient_list": [
+			"새우젓 만드는 법",
+			"정향"
+		]
+	},
+	{
+		"effect": "살균작용",
+		"ingredient_list": [
+			"생강"
+		]
+	},
+	{
+		"effect": "갱년기 장애 예방",
+		"ingredient_list": [
+			"석류"
+		]
+	},
+	{
+		"effect": "열량원",
+		"ingredient_list": [
+			"설탕"
+		]
+	},
+	{
+		"effect": "산모 산후 회복",
+		"ingredient_list": [
+			"성게",
+			"성게알"
+		]
+	},
+	{
+		"effect": "누린내 제거",
+		"ingredient_list": [
+			"세이지",
+			"후추"
+		]
+	},
+	{
+		"effect": "이뇨작용 촉진",
+		"ingredient_list": [
+			"셀러리"
+		]
+	},
+	{
+		"effect": "불면증 해소 이라는 특수 방향 성분이 함유되어 있으며 맛은 약간 쌉싸름하고 몸의 열을 내려주고 피부를 진정시키는 작용이 있고 이뇨작용도 촉진시킨다. 또한 멜라토닌이 많이 들어 있어 불면증을 해소한다.)",
+		"ingredient_list": [
+			"셀러리"
+		]
+	},
+	{
+		"effect": "관절 기능 개선",
+		"ingredient_list": [
+			"소머리",
+			"수구레"
+		]
+	},
+	{
+		"effect": "위장 기능 보호",
+		"ingredient_list": [
+			"소염통",
+			"채끝"
+		]
+	},
+	{
+		"effect": "신장질환 예방",
+		"ingredient_list": [
+			"소콩팥"
+		]
+	},
+	{
+		"effect": "감기예방",
+		"ingredient_list": [
+			"솔잎",
+			"탱자"
+		]
+	},
+	{
+		"effect": "당뇨 예방",
+		"ingredient_list": [
+			"솔잎"
+		]
+	},
+	{
+		"effect": "지혈 작용",
+		"ingredient_list": [
+			"송기"
+		]
+	},
+	{
+		"effect": "소화기 장애 해소",
+		"ingredient_list": [
+			"송로버섯"
+		]
+	},
+	{
+		"effect": "혈액순환",
+		"ingredient_list": [
+			"송순"
+		]
+	},
+	{
+		"effect": "기력 회복",
+		"ingredient_list": [
+			"쇠고기안심",
+			"쌀뜨물",
+			"은어"
+		]
+	},
+	{
+		"effect": "소화 이라는 단백질 분해 효소가 있어 고기의 소화를 도와주는 작용을 한다.)",
+		"ingredient_list": [
+			"쇠고기양념 만드는 법"
+		]
+	},
+	{
+		"effect": "신장병 예방",
+		"ingredient_list": [
+			"수박껍질",
+			"오트밀"
+		]
+	},
+	{
+		"effect": "방광염 치유",
+		"ingredient_list": [
+			"수수"
+		]
+	},
+	{
+		"effect": "항암작용",
+		"ingredient_list": [
+			"순무"
+		]
+	},
+	{
+		"effect": "이뇨 작용",
+		"ingredient_list": [
+			"순채"
+		]
+	},
+	{
+		"effect": "풍미 증진",
+		"ingredient_list": [
+			"슈거파우더"
+		]
+	},
+	{
+		"effect": "맛 촉진",
+		"ingredient_list": [
+			"슈거파우더"
+		]
+	},
+	{
+		"effect": "정장 작용",
+		"ingredient_list": [
+			"스트링치즈",
+			"카망베르치즈"
+		]
+	},
+	{
+		"effect": "해열진통작용",
+		"ingredient_list": [
+			"시호"
+		]
+	},
+	{
+		"effect": "항병원작용",
+		"ingredient_list": [
+			"시호"
+		]
+	},
+	{
+		"effect": "소염작용",
+		"ingredient_list": [
+			"시호"
+		]
+	},
+	{
+		"effect": "기력회복",
+		"ingredient_list": [
+			"쌀뜨물 만드는 법",
+			"오리고기",
+			"잉어"
+		]
+	},
+	{
+		"effect": "기력 보충",
+		"ingredient_list": [
+			"쏘가리"
+		]
+	},
+	{
+		"effect": "생리통 치유",
+		"ingredient_list": [
+			"쑥가루",
+			"쑥가루 만드는 법"
+		]
+	},
+	{
+		"effect": "부인병 치유",
+		"ingredient_list": [
+			"쑥가루",
+			"쑥가루 만드는 법"
+		]
+	},
+	{
+		"effect": "콜레스테롤 제거",
+		"ingredient_list": [
+			"양념된장",
+			"양념된장 만드는 법"
+		]
+	},
+	{
+		"effect": "소화기능 장애 예방",
+		"ingredient_list": [
+			"양송이버섯"
+		]
+	},
+	{
+		"effect": "소화작용 촉진",
+		"ingredient_list": [
+			"양파"
+		]
+	},
+	{
+		"effect": "신진대사 활성화",
+		"ingredient_list": [
+			"양파가루"
+		]
+	},
+	{
+		"effect": "신진대사",
+		"ingredient_list": [
+			"양파가루 만드는 법"
+		]
+	},
+	{
+		"effect": "두뇌건강",
+		"ingredient_list": [
+			"어란"
+		]
+	},
+	{
+		"effect": "관절염 예방",
+		"ingredient_list": [
+			"엄나무"
+		]
+	},
+	{
+		"effect": "신경통 치유",
+		"ingredient_list": [
+			"엄나무"
+		]
+	},
+	{
+		"effect": "정력 보강",
+		"ingredient_list": [
+			"엉겅퀴"
+		]
+	},
+	{
+		"effect": "소화흡수",
+		"ingredient_list": [
+			"연두부"
+		]
+	},
+	{
+		"effect": "장운동 활발",
+		"ingredient_list": [
+			"연두부"
+		]
+	},
+	{
+		"effect": "혈관질환 개선",
+		"ingredient_list": [
+			"연어",
+			"자몽"
+		]
+	},
+	{
+		"effect": "부인병치료",
+		"ingredient_list": [
+			"연자"
+		]
+	},
+	{
+		"effect": "혈압 안정",
+		"ingredient_list": [
+			"열무"
+		]
+	},
+	{
+		"effect": "기억력 향상",
+		"ingredient_list": [
+			"열무"
+		]
+	},
+	{
+		"effect": "젖말림",
+		"ingredient_list": [
+			"엿기름"
+		]
+	},
+	{
+		"effect": "기운회복",
+		"ingredient_list": [
+			"오가피"
+		]
+	},
+	{
+		"effect": "혈관질환 예방",
+		"ingredient_list": [
+			"오리고기"
+		]
+	},
+	{
+		"effect": "항바이러스 효과  방부효과가 강한 물질이 있어서 항바이러스 효과가 있다. 또한 뮤코다당류 등 세포를 활성화 시키는 물질 함량이 높고 타우린이 풍부하다.)",
+		"ingredient_list": [
+			"오징어먹물"
+		]
+	},
+	{
+		"effect": "심장병 예방",
+		"ingredient_list": [
+			"오트밀",
+			"청어"
+		]
+	},
+	{
+		"effect": "산후 몸 회복",
+		"ingredient_list": [
+			"옥돔"
+		]
+	},
+	{
+		"effect": "심신 안정",
+		"ingredient_list": [
+			"용안육"
+		]
+	},
+	{
+		"effect": "어린이",
+		"ingredient_list": [
+			"우설"
+		]
+	},
+	{
+		"effect": "회복기 환자 영양 급원",
+		"ingredient_list": [
+			"우설"
+		]
+	},
+	{
+		"effect": "골다공증예방",
+		"ingredient_list": [
+			"우족"
+		]
+	},
+	{
+		"effect": "우울증 치료",
+		"ingredient_list": [
+			"원추리"
+		]
+	},
+	{
+		"effect": "방부 효능",
+		"ingredient_list": [
+			"월계수잎"
+		]
+	},
+	{
+		"effect": "기침",
+		"ingredient_list": [
+			"유자청 만드는 법"
+		]
+	},
+	{
+		"effect": "가래",
+		"ingredient_list": [
+			"유자청 만드는 법"
+		]
+	},
+	{
+		"effect": "피부 미용에 도움",
+		"ingredient_list": [
+			"유자청 만드는 법"
+		]
+	},
+	{
+		"effect": "부종 억제",
+		"ingredient_list": [
+			"율무"
+		]
+	},
+	{
+		"effect": "항염 작용",
+		"ingredient_list": [
+			"으름"
+		]
+	},
+	{
+		"effect": "혈액노화 방지",
+		"ingredient_list": [
+			"은행"
+		]
+	},
+	{
+		"effect": "체력 보강",
+		"ingredient_list": [
+			"자라"
+		]
+	},
+	{
+		"effect": "항염 효과",
+		"ingredient_list": [
+			"자초"
+		]
+	},
+	{
+		"effect": "설사 치유",
+		"ingredient_list": [
+			"작약"
+		]
+	},
+	{
+		"effect": "피부탄력 향상",
+		"ingredient_list": [
+			"잣"
+		]
+	},
+	{
+		"effect": "골다공증 예방 및 정력 증강",
+		"ingredient_list": [
+			"장어구이양념 만드는 법"
+		]
+	},
+	{
+		"effect": "피부 탄력 향상",
+		"ingredient_list": [
+			"재스민"
+		]
+	},
+	{
+		"effect": "냄새 제거 에 탄력을 주는 성분을 함유하고 있고",
+		"ingredient_list": [
+			"재스민"
+		]
+	},
+	{
+		"effect": "생리불순 해소",
+		"ingredient_list": [
+			"재스민"
+		]
+	},
+	{
+		"effect": "산후 고통 완화",
+		"ingredient_list": [
+			"재스민"
+		]
+	},
+	{
+		"effect": "모유 촉진 및 냉증",
+		"ingredient_list": [
+			"재스민"
+		]
+	},
+	{
+		"effect": "스트레스성 위통",
+		"ingredient_list": [
+			"재스민"
+		]
+	},
+	{
+		"effect": "우울증 등 치료에 쓰인다. 또한 냄새 제거에 탁월한 효과가 있다.)",
+		"ingredient_list": [
+			"재스민"
+		]
+	},
+	{
+		"effect": "간보호",
+		"ingredient_list": [
+			"재첩"
+		]
+	},
+	{
+		"effect": "각기병 예방",
+		"ingredient_list": [
+			"적두",
+			"찐쌀",
+			"팥소",
+			"팥소 만드는 법"
+		]
+	},
+	{
+		"effect": "위장 기능 강화",
+		"ingredient_list": [
+			"적양파"
+		]
+	},
+	{
+		"effect": "위/십이지장궤양 예방",
+		"ingredient_list": [
+			"적채"
+		]
+	},
+	{
+		"effect": "산모 모유",
+		"ingredient_list": [
+			"전복"
+		]
+	},
+	{
+		"effect": "성인병 예방 이며 EPA는 혈소판의 정상적인 활동을 돕고",
+		"ingredient_list": [
+			"정어리"
+		]
+	},
+	{
+		"effect": "혈전이 생기는 것을 막아 혈액이 잘 돌게 한다. DHA는 뇌를 건강하게 하고",
+		"ingredient_list": [
+			"정어리"
+		]
+	},
+	{
+		"effect": "시력을 개선하는 효과가 있다.)",
+		"ingredient_list": [
+			"정어리"
+		]
+	},
+	{
+		"effect": "건강 유지",
+		"ingredient_list": [
+			"젤라틴"
+		]
+	},
+	{
+		"effect": "콜레스테롤 감소",
+		"ingredient_list": [
+			"주꾸미"
+		]
+	},
+	{
+		"effect": "어린이 성장촉진",
+		"ingredient_list": [
+			"쥐눈이콩"
+		]
+	},
+	{
+		"effect": "성인병 치유",
+		"ingredient_list": [
+			"쥐치"
+		]
+	},
+	{
+		"effect": "소화 불량 및 식욕 부진",
+		"ingredient_list": [
+			"쫄면양념 만드는 법"
+		]
+	},
+	{
+		"effect": "안구건조증 예방",
+		"ingredient_list": [
+			"참나물"
+		]
+	},
+	{
+		"effect": "산후 회복",
+		"ingredient_list": [
+			"참마자"
+		]
+	},
+	{
+		"effect": "조루 예방",
+		"ingredient_list": [
+			"참새고기"
+		]
+	},
+	{
+		"effect": "빈뇨 예방",
+		"ingredient_list": [
+			"참새고기"
+		]
+	},
+	{
+		"effect": "동맥경화증 예방 및 고혈압 예방",
+		"ingredient_list": [
+			"참치액젓 만드는 법"
+		]
+	},
+	{
+		"effect": "피로 회복 및 성장 촉진",
+		"ingredient_list": [
+			"창난젓 만드는 법"
+		]
+	},
+	{
+		"effect": "신장 보호",
+		"ingredient_list": [
+			"창출"
+		]
+	},
+	{
+		"effect": "소변 배출 용이",
+		"ingredient_list": [
+			"창출"
+		]
+	},
+	{
+		"effect": "태아 두뇌 발달",
+		"ingredient_list": [
+			"처녑"
+		]
+	},
+	{
+		"effect": "부녀병 치유",
+		"ingredient_list": [
+			"천궁"
+		]
+	},
+	{
+		"effect": "해독 기능",
+		"ingredient_list": [
+			"천문동"
+		]
+	},
+	{
+		"effect": "어린이 성장발 육촉진",
+		"ingredient_list": [
+			"청각"
+		]
+	},
+	{
+		"effect": "치아와 골격 형성",
+		"ingredient_list": [
+			"청경채"
+		]
+	},
+	{
+		"effect": "피부 미용에 효과적",
+		"ingredient_list": [
+			"청태"
+		]
+	},
+	{
+		"effect": "면역증강",
+		"ingredient_list": [
+			"초고추장"
+		]
+	},
+	{
+		"effect": "면역 증강",
+		"ingredient_list": [
+			"초고추장 만드는 법"
+		]
+	},
+	{
+		"effect": "구토 치유",
+		"ingredient_list": [
+			"초과"
+		]
+	},
+	{
+		"effect": "체력회복",
+		"ingredient_list": [
+			"초어"
+		]
+	},
+	{
+		"effect": "염분 배출",
+		"ingredient_list": [
+			"취나물"
+		]
+	},
+	{
+		"effect": "두뇌 건강",
+		"ingredient_list": [
+			"카레가루"
+		]
+	},
+	{
+		"effect": "정신안정",
+		"ingredient_list": [
+			"캐모마일"
+		]
+	},
+	{
+		"effect": "혈 압조절",
+		"ingredient_list": [
+			"케일"
+		]
+	},
+	{
+		"effect": "치질 예방",
+		"ingredient_list": [
+			"콩가루"
+		]
+	},
+	{
+		"effect": "혈중 콜레스테롤 저하  콜레스테롤의 농도를 증가시키고 또한 강력한 항산화제로서 작용을 해 심장 건강을 증진시키는 효과가 있다.)",
+		"ingredient_list": [
+			"크랜베리"
+		]
+	},
+	{
+		"effect": "단백질 합성",
+		"ingredient_list": [
+			"클로렐라"
+		]
+	},
+	{
+		"effect": "콜레스테롤저하",
+		"ingredient_list": [
+			"키조개"
+		]
+	},
+	{
+		"effect": "시력 회복 및 감기 예방",
+		"ingredient_list": [
+			"탕수육소스 만드는 법"
+		]
+	},
+	{
+		"effect": "면역력 강화",
+		"ingredient_list": [
+			"토마토소스 만드는 법"
+		]
+	},
+	{
+		"effect": "변비 개선",
+		"ingredient_list": [
+			"토마토소스 만드는 법"
+		]
+	},
+	{
+		"effect": "콜라겐 형성",
+		"ingredient_list": [
+			"토마토홀",
+			"홀토마토 만드는 법"
+		]
+	},
+	{
+		"effect": "혈당 상승 억제",
+		"ingredient_list": [
+			"통밀"
+		]
+	},
+	{
+		"effect": "혈당 상승 지연",
+		"ingredient_list": [
+			"통밀가루"
+		]
+	},
+	{
+		"effect": "발육 촉진",
+		"ingredient_list": [
+			"틸라피아"
+		]
+	},
+	{
+		"effect": "기미",
+		"ingredient_list": [
+			"파프리카"
+		]
+	},
+	{
+		"effect": "주근깨 예방",
+		"ingredient_list": [
+			"파프리카"
+		]
+	},
+	{
+		"effect": "피로 회복 및 소화 불량",
+		"ingredient_list": [
+			"포도잼 만드는 법"
+		]
+	},
+	{
+		"effect": "혈관 기능 개선",
+		"ingredient_list": [
+			"표고버섯"
+		]
+	},
+	{
+		"effect": "뼈건강 도움",
+		"ingredient_list": [
+			"표고버섯가루"
+		]
+	},
+	{
+		"effect": "뼈 건강 도움",
+		"ingredient_list": [
+			"표고버섯가루 만드는 법"
+		]
+	},
+	{
+		"effect": "심혈관질환 예방",
+		"ingredient_list": [
+			"피스타치오"
+		]
+	},
+	{
+		"effect": "혈압 조절",
+		"ingredient_list": [
+			"피시소스"
+		]
+	},
+	{
+		"effect": "숙변 제거",
+		"ingredient_list": [
+			"함초"
+		]
+	},
+	{
+		"effect": "치아 및 골격 형성",
+		"ingredient_list": [
+			"해삼"
+		]
+	},
+	{
+		"effect": "태아 두뇌발달 촉진",
+		"ingredient_list": [
+			"해초"
+		]
+	},
+	{
+		"effect": "집중력 향상",
+		"ingredient_list": [
+			"헤이즐넛"
+		]
+	},
+	{
+		"effect": "항산화효과",
+		"ingredient_list": [
+			"홍고추"
+		]
+	},
+	{
+		"effect": "혈소판 응집억제를 통한 혈액 흐름에 도움을 준다고 알려져 있다.",
+		"ingredient_list": [
+			"홍삼"
+		]
+	},
+	{
+		"effect": "소변배출 용이",
+		"ingredient_list": [
+			"황기"
+		]
+	},
+	{
+		"effect": "간장 보호",
+		"ingredient_list": [
+			"황기"
+		]
+	},
+	{
+		"effect": "정상 혈압 유지",
+		"ingredient_list": [
+			"황다랑어"
+		]
+	},
+	{
+		"effect": "혈중 콜레스테롤 감소",
+		"ingredient_list": [
+			"황다랑어"
+		]
+	},
+	{
+		"effect": "기침 해소",
+		"ingredient_list": [
+			"황도"
+		]
+	},
+	{
+		"effect": "식품 발효 용이",
+		"ingredient_list": [
+			"효모"
+		]
+	},
+	{
+		"effect": "항산화 기능",
+		"ingredient_list": [
+			"흑미"
+		]
+	},
+	{
+		"effect": "고미신 성분이 있는데",
+		"ingredient_list": [
+			"흑오미자"
+		]
+	},
+	{
+		"effect": "이 물질들은 독성물질에 의한 간세포 손상을 막아 간을 보호한다.)",
+		"ingredient_list": [
+			"흑오미자"
+		]
+	}
+]
