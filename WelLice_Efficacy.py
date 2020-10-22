@@ -12,7 +12,7 @@ stuffData = {}
 efficacyDict = {}
 
 url = "https://terms.naver.com/list.nhn?cid=42785&categoryId=42795&so=st3.asc&viewType=&categoryType=&page="
-for pageNum in range(4): #101 페이지
+for pageNum in range(101): #101 페이지
     pageNum = pageNum +1
     pageUrl = url + str(pageNum)
     print(pageUrl)
